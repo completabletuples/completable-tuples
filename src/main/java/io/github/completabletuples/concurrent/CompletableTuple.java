@@ -1,4 +1,4 @@
-package io.github.completabletuples;
+package io.github.completabletuples.concurrent;
 
 interface CompletableTuple<CT> {
 
