@@ -1,4 +1,4 @@
-package org.completabletuples;
+package io.github.completabletuples;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;

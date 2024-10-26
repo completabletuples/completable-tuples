@@ -1,4 +1,4 @@
-package org.completabletuples;
+package io.github.completabletuples;
 
 interface CompletableTuple<CT> {
 
