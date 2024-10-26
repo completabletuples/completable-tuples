@@ -10,11 +10,18 @@ public final class CompletableTuples {
         return CompletableTuple1.of(task1);
     }
 
-    public static <T1, T2> CompletableTuple2<T1, T2> of(CompletableFuture<T1> task1, CompletableFuture<T2> task2) {
+    public static <T1, T2> CompletableTuple2<T1, T2> of(
+            CompletableFuture<T1> task1,
+            CompletableFuture<T2> task2
+    ) {
         return CompletableTuple2.of(task1, task2);
     }
 
-    public static <T1, T2, T3> CompletableTuple3<T1, T2, T3> of(CompletableFuture<T1> task1, CompletableFuture<T2> task2, CompletableFuture<T3> task3) {
+    public static <T1, T2, T3> CompletableTuple3<T1, T2, T3> of(
+            CompletableFuture<T1> task1,
+            CompletableFuture<T2> task2,
+            CompletableFuture<T3> task3
+    ) {
         return CompletableTuple3.of(task1, task2, task3);
     }
 
@@ -85,6 +92,21 @@ public final class CompletableTuples {
             CompletableFuture<T9> task9
     ) {
         return CompletableTuple9.of(task1, task2, task3, task4, task5, task6, task7, task8, task9);
+    }
+
+    public static <T1, T2, T3, T4, T5, T6, T7, T8, T9, T10> CompletableTuple10<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10> of(
+            CompletableFuture<T1> task1,
+            CompletableFuture<T2> task2,
+            CompletableFuture<T3> task3,
+            CompletableFuture<T4> task4,
+            CompletableFuture<T5> task5,
+            CompletableFuture<T6> task6,
+            CompletableFuture<T7> task7,
+            CompletableFuture<T8> task8,
+            CompletableFuture<T9> task9,
+            CompletableFuture<T10> task10
+    ) {
+        return CompletableTuple10.of(task1, task2, task3, task4, task5, task6, task7, task8, task9, task10);
     }
 
 }
