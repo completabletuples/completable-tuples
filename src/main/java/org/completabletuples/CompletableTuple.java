@@ -1,4 +1,4 @@
-package org.completableuples;
+package org.completabletuples;
 
 interface CompletableTuple<CT> {
 
